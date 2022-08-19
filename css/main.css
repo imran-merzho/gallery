@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #dfdfdf;
+    font-family: 'Poppins', sans-serif;
+}
+
+main {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 70%;
+    padding: 50px;
+    margin: auto;
+    background-color: #fff;
+    box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.2);
+}
+
+.photo {
+    width: calc(50% - 40px);
+    height: calc( (35vw - 40px) / 16 * 9);
+    background-color: rgb(0, 0, 0);
+    margin: 20px 0 0 20px;
+    transition: all 0.5s ease;
+}
+
+.photo:hover {
+    transform: rotate(3deg) scale(1.07);
+    box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.4) 
+}
+
+h1 {
+    width: 100%;
+    text-align: center;
+    font-size: 40px;
+}
+
+
+.photo1 {
+    background-image: url(../img/1.webp);
+    background-position: center;
+    background-size: cover;
+}
+
+.photo2 {
+    background-image: url(../img/2.webp);
+    background-position: center;
+    background-size: cover;
+}
+
+.photo3 {
+    background-image: url(../img/3.webp);
+    background-position: center;
+    background-size: cover;
+}
+
+.photo4 {
+    background-image: url(../img/4.webp);
+    background-position: center;
+    background-size: cover;
+}
+
+.photo5 {
+    background-image: url(../img/5.webp);
+    background-position: center;
+    background-size: cover;
+}
+
+.photo6 {
+    background-image: url(../img/6.webp);
+    background-position: center;
+    background-size: cover;
+}
